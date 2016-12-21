@@ -1,0 +1,501 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-image: url("https://beatsbeautyandbeyond.files.wordpress.com/2015/08/hello-brio-watercolor-4.png");
+	font-family: 'Amatic SC', cursive;
+}
+
+/*-----------------header---------------- */
+
+header {
+	height: 200px;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f3/13/26/f3132679cb4b16630be19ec9206f7cab.jpg");
+	background-size: cover;
+	background-position: center center;
+	padding: 30px;
+}
+
+.header-content {
+	margin-top: 90px;
+}
+
+header h1, header h3 {
+	margin: 0 0;
+	display: inline-block;	
+}
+
+header h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 0.1em;
+}
+
+header h3 {
+	color: white;
+	word-spacing: 0.2em;
+	letter-spacing: 0.02em;
+	font-weight: bold;
+	margin-left: 10px;
+}
+/*-----------Navigacija------------*/
+nav {
+
+	padding: 0;
+	float: right;
+	position: relative;
+	font-size: 25px;
+	color: white;
+	word-spacing: 0.2em;
+	line-height: 30px;
+	margin-top: 25px;
+	font-weight: bold;
+}
+
+nav ul {
+	margin: 0 0;
+	padding: 0;
+}
+
+nav ul li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li:hover a {
+	color: #FB1E6E;
+}
+
+.selected {
+	text-decoration: underline;
+}
+
+
+/*------------footer----------------*/
+
+footer {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #1C668C;
+	bottom: 0;
+}
+
+
+/*------------portfolio--------------*/
+
+.wrapper {
+	text-align: center;
+	margin: 50px auto;
+	max-width: 1280px;
+	width: 97%;
+	position:relative;
+}
+
+
+.container {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f3/13/26/f3132679cb4b16630be19ec9206f7cab.jpg");
+	background-size: cover;
+	border: 1px solid #FFABE0;
+	border-radius: 7px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1294);
+	display: inline-block;
+}
+
+
+h5 a {
+	text-decoration: none;
+	color: white;
+	transition: font-size 1s ease;
+	font-size: 25px;
+}
+
+
+h5 a:hover {
+	color: #FB1E6E;
+	transition: font-size 1s ease;
+	font-size: 30px;
+}
+
+
+.content p {
+	color: #FB1E6E;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	opacity: 0.5;
+	transition: font-size 1s ease;
+}
+
+.content:hover p {
+	opacity: 1;
+	transition: font-size 1s ease;
+}
+
+.middle{
+	margin-left:20px; 
+	margin-right:20px;
+}
+
+
+.container img {
+	vertical-align: top;
+	width:100%;		
+}
+
+
+.content {
+	height: 200px;
+	vertical-align: middle;
+	text-align: center;
+	color: #242424;
+}
+
+
+/*------------ o-meni--------------*/
+
+.wrapper-2 {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1280px;
+	width: 97%;
+
+}
+.photo {
+	float: left;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#photo {
+	border-radius: 50%;
+	filter:grayscale(100%);
+}
+
+#photo:hover {
+	filter:grayscale(0%);
+}
+
+.o-meni  {
+	margin-top: 40px auto 0;
+	color: #1C668C;
+}
+.o-meni h3{
+	font-family: 'Amatic SC', cursive;
+	font-size: 2em;
+	transition: font-size 1s ease;
+}
+
+.o-meni h3:hover {
+	color: #FB1E6E;
+	font-size: 40px;
+	transition: font-size 1s ease;
+}
+
+.o-meni p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+.clear {
+	clear: both;
+}
+
+/*-----------------kontakt---------------*/
+
+.wrapper-3 {
+	color: #1C668C;
+	font-family: 'PT Sans', sans-serif;
+	margin: 50px 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	max-width: 1280px;
+	width: 97%;
+}
+
+.korisne-informacije h3,
+aside h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	transition: font-size 1s ease;
+}
+
+.korisne-informacije h3:hover {
+	color: #FB1E6E;
+	font-size: 40px;
+	transition: font-size 1s ease;
+}
+
+aside h3:hover {
+	color: #FB1E6E;
+	font-size: 40px;
+	transition: font-size 1s ease;
+}
+
+.korisne-informacije {
+	width: 60%;
+	display: inline-block;
+	text-align: justify;
+}
+
+.korisne-informacije p {
+	padding: 0;
+}
+
+aside ul {
+	list-style: none !important;
+	padding: 0;
+}
+
+aside{
+	font-family: 'PT Sans', sans-serif;
+	display: inline-block;
+	float: right;
+	margin-right: 50px;
+}
+
+aside ul li span {
+	padding-right: 10px;
+}
+
+aside ul li {
+	font-weight: bold;
+}
+
+aside ul li a {
+	text-decoration: none;
+	color: #1C668C;
+	font-weight: bold;
+}
+
+aside ul li a:hover {
+	color: #FB1E6E;
+}
+
+.fa-envelope {
+	font-size: 13px;
+}
+
+
+/*----------------- max-width: 400px------------------*/
+
+
+@media screen and (max-width: 400px) {
+	
+/*-----Header------*/
+
+	.container img {
+		display: none;
+	}
+	.header-content{
+		margin-top: 10px !important;
+	}
+	header h1 {
+		margin-top: 5px;
+	}
+	nav {
+		margin-top: 5px;
+	}
+
+/*-----Portfolio------*/
+
+	.middle {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+/*-----O meni------*/
+
+	.wrapper-2 {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.o-meni {
+		text-align: center;
+		margin-left: 30px;
+
+	}
+	.photo {
+		float: none !important;
+		width: 100%;
+	}
+
+	#photo {
+		display: block;
+		margin: 0 auto;
+	}
+	.o-meni h3 {
+		display: block;
+	}
+
+/*-----Kontakt------*/
+
+	.wrapper-3 {
+		padding: 0;
+		
+	}
+	.korisne-informacije {
+		margin:0;
+
+	}
+	.korisne-informacije h3 {
+		font-size: 25px;
+		transition: font-size 1s ease;
+	}
+	.korisne-informacije h3:hover {
+		color: #FB1E6E;
+		font-size: 30px;
+		transition: font-size 1s ease;
+	}
+	aside {
+		color: #FB1E6E;
+	}
+
+	aside h3:hover {
+		color: #1C668C;
+		font-size: 40px;
+		transition: font-size 1s ease;
+	}
+	aside ul li a {
+		color: #FB1E6E
+	}
+
+	aside ul li a:hover {
+	color: white;
+	}
+}
+
+
+/*--------------------max-width: 600px-------------------*/
+
+@media screen and (max-width: 600px) {
+	
+	/*-----Header------*/
+
+	.container {
+		width: 100%;
+	}
+	header h1 {
+		margin-top: 5px;
+		font-size: 35px;
+	}
+	nav {
+		margin-top: 5px !important;
+	}
+
+/*-----Portfolio------*/
+
+	.middle {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+/*-----O meni------*/
+
+	.wrapper-2 {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.o-meni {
+		text-align: center;
+		margin-left: 30px;
+
+	}
+	.photo {
+		float: none !important;
+		width: 100%;
+	}
+
+	#photo {
+		display: block;
+		margin: 0 auto;
+	}
+	.o-meni h3 {
+		display: block;
+	}
+}
+    
+
+ /*--------------------max-width: 800px------------------*/
+
+
+@media screen and (max-width: 800px) {
+	
+/*-----Header------*/
+
+	nav {
+		margin-top: 5px !important;
+		float: none;
+	}
+	.header-content {
+		margin-top: 50px;
+		text-align: center;
+	}
+	header h1,header h3,nav {
+		display: block;
+	}
+	header h1 {
+		font-size: 35px;
+	}
+
+/*-----Portfolio------*/
+
+	.middle {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+/*-----O meni------*/
+
+	.wrapper-3 {
+		margin-top: 60px;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	aside {
+		float: none !important;
+		display: inline-block;
+		margin-left:90px;
+	}
+
+	aside ul {
+		text-align: left;
+	}
+
+	.korisne-informacije h3 {
+		text-align: center;
+	}
+
+	.korisne-informacije {
+		display: block;
+		text-align: justify;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+
+/*----------------max-width: 1000px------------------*/
+
+@media screen and (min-width: 1000px) {
+	
+	/*-----Portfolio------*/
+
+	.container {
+		width: 32%;
+	}
+}
