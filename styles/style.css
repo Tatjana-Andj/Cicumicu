@@ -7,6 +7,7 @@
 body {
 	background-image: url("https://beatsbeautyandbeyond.files.wordpress.com/2015/08/hello-brio-watercolor-4.png");
 	font-family: 'Amatic SC', cursive;
+	overflow:hidden;
 }
 
 /*-----------------header---------------- */
@@ -219,7 +220,7 @@ h5 a:hover {
 .wrapper-3 {
 	color: #1C668C;
 	font-family: 'PT Sans', sans-serif;
-	margin: 50px 30px;
+	margin: 70px 30px;
 	padding-left: 40px;
 	padding-right: 40px;
 	max-width: 1280px;
